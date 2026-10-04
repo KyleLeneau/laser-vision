@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Copyrighted audio supplied locally by each developer (see README)
+LaserVision/Resources/UserAudio/*
+!LaserVision/Resources/UserAudio/.gitkeep

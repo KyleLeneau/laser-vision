@@ -1,0 +1,48 @@
+{
+  "formatVersion": 1,
+  "id": "everything-in-its-right-place",
+  "title": "Everything In Its Right Place",
+  "artist": "Radiohead",
+  "album": "Kid A",
+  "audio": { "location": "userSupplied", "fileName": "everything-in-its-right-place.mp3" },
+  "tempo": { "bpm": 136.2, "firstBeatSeconds": 0.21, "beatsPerBar": 4 },
+  "palette": ["#7FD4FF", "#FF2B2B", "#8A5CFF", "#F4F1EA"],
+  "signature": {
+    "kind": "lissajous",
+    "parameters": { "scale": 0.85, "symmetry": 4, "variation": 0.4, "primaryColor": 0, "secondaryColor": 1 }
+  },
+  "cues": [
+    {
+      "startBar": 0, "transitionBeats": 0,
+      "pattern": { "kind": "phyllotaxis", "parameters": { "speed": 0.4, "scale": 0.6, "density": 0.4, "variation": 0.5, "audioReactivity": 0.6, "primaryColor": 0, "secondaryColor": 3 } }
+    },
+    {
+      "startBar": 16, "transitionBeats": 8,
+      "pattern": { "kind": "lissajous", "parameters": { "speed": 0.5, "scale": 0.8, "symmetry": 4, "variation": 0.4, "audioReactivity": 0.5, "primaryColor": 0, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 32, "transitionBeats": 8,
+      "pattern": { "kind": "waveformRing", "parameters": { "speed": 0.5, "scale": 0.8, "symmetry": 5, "audioReactivity": 0.9, "primaryColor": 1, "secondaryColor": 0 } }
+    },
+    {
+      "startBar": 48, "transitionBeats": 8,
+      "pattern": { "kind": "phyllotaxis", "parameters": { "speed": 0.8, "scale": 0.9, "density": 0.9, "variation": 1, "audioReactivity": 0.8, "primaryColor": 2, "secondaryColor": 0 } }
+    },
+    {
+      "startBar": 64, "transitionBeats": 4,
+      "pattern": { "kind": "beamFan", "parameters": { "speed": 0.5, "scale": 0.9, "density": 0.8, "symmetry": 2, "variation": 0.6, "audioReactivity": 0.6, "primaryColor": 0, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 80, "transitionBeats": 8,
+      "pattern": { "kind": "lissajous", "parameters": { "speed": 1, "scale": 0.9, "symmetry": 2, "variation": 0.8, "audioReactivity": 0.8, "primaryColor": 1, "secondaryColor": 2 } }
+    },
+    {
+      "startBar": 96, "transitionBeats": 8,
+      "pattern": { "kind": "waveformRing", "parameters": { "speed": 1, "scale": 0.85, "symmetry": 3, "audioReactivity": 1, "primaryColor": 3, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 112, "transitionBeats": 16,
+      "pattern": { "kind": "phyllotaxis", "parameters": { "speed": 0.3, "scale": 0.5, "density": 0.3, "variation": 0.3, "audioReactivity": 0.4, "primaryColor": 0, "secondaryColor": 2 } }
+    }
+  ]
+}

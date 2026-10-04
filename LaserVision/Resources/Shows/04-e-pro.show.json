@@ -1,0 +1,44 @@
+{
+  "formatVersion": 1,
+  "id": "e-pro",
+  "title": "E-Pro",
+  "artist": "Beck",
+  "album": "Guero",
+  "audio": { "location": "userSupplied", "fileName": "e-pro.mp3" },
+  "tempo": { "bpm": 95.8, "firstBeatSeconds": 0.23, "beatsPerBar": 4 },
+  "palette": ["#FFD400", "#FF3B1F", "#00E5FF"],
+  "signature": {
+    "kind": "radialBurst",
+    "parameters": { "scale": 0.9, "density": 0.7, "symmetry": 4, "primaryColor": 0, "secondaryColor": 1 }
+  },
+  "cues": [
+    {
+      "startBar": 0, "transitionBeats": 0,
+      "pattern": { "kind": "radialBurst", "parameters": { "speed": 1, "scale": 0.9, "density": 0.7, "symmetry": 4, "audioReactivity": 1, "primaryColor": 0, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 8, "transitionBeats": 2,
+      "pattern": { "kind": "beamFan", "parameters": { "speed": 1, "scale": 0.9, "density": 0.8, "symmetry": 3, "variation": 0.9, "audioReactivity": 0.8, "primaryColor": 0, "secondaryColor": 2 } }
+    },
+    {
+      "startBar": 16, "transitionBeats": 2,
+      "pattern": { "kind": "tunnel", "parameters": { "speed": 1.5, "scale": 0.9, "density": 0.8, "symmetry": 4, "variation": 0, "audioReactivity": 0.9, "primaryColor": 1, "secondaryColor": 0 } }
+    },
+    {
+      "startBar": 32, "transitionBeats": 2,
+      "pattern": { "kind": "radialBurst", "parameters": { "speed": 1.5, "scale": 1, "density": 1, "symmetry": 6, "audioReactivity": 1, "primaryColor": 2, "secondaryColor": 0 } }
+    },
+    {
+      "startBar": 40, "transitionBeats": 4,
+      "pattern": { "kind": "spirograph", "parameters": { "speed": 2, "scale": 0.85, "symmetry": 5, "variation": 0.9, "audioReactivity": 0.8, "primaryColor": 0, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 52, "transitionBeats": 2,
+      "pattern": { "kind": "beamFan", "parameters": { "speed": 2, "scale": 1, "density": 1, "symmetry": 4, "variation": 1, "audioReactivity": 0.9, "primaryColor": 1, "secondaryColor": 2 } }
+    },
+    {
+      "startBar": 64, "transitionBeats": 4,
+      "pattern": { "kind": "tunnel", "parameters": { "speed": 1, "scale": 0.8, "density": 0.5, "symmetry": 3, "variation": 0.5, "audioReactivity": 0.8, "primaryColor": 0, "secondaryColor": 2 } }
+    }
+  ]
+}

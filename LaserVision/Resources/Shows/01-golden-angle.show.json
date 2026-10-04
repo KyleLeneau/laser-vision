@@ -1,0 +1,40 @@
+{
+  "formatVersion": 1,
+  "id": "golden-angle",
+  "title": "Golden Angle",
+  "artist": "Laser Vision",
+  "album": "Demo Reel",
+  "audio": { "location": "bundled", "fileName": "golden-angle.m4a" },
+  "tempo": { "bpm": 90, "firstBeatSeconds": 0, "beatsPerBar": 4 },
+  "palette": ["#FFB000", "#FF3D7F", "#3DDCFF"],
+  "signature": {
+    "kind": "phyllotaxis",
+    "parameters": { "scale": 0.9, "density": 0.8, "variation": 0.6, "primaryColor": 0, "secondaryColor": 1 }
+  },
+  "cues": [
+    {
+      "startBar": 0, "transitionBeats": 0,
+      "pattern": { "kind": "phyllotaxis", "parameters": { "speed": 0.5, "scale": 0.75, "density": 0.5, "variation": 0.6, "audioReactivity": 0.3, "primaryColor": 0, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 8, "transitionBeats": 4,
+      "pattern": { "kind": "phyllotaxis", "parameters": { "speed": 1, "scale": 0.85, "density": 0.9, "variation": 0.8, "audioReactivity": 0.7, "primaryColor": 0, "secondaryColor": 2 } }
+    },
+    {
+      "startBar": 16, "transitionBeats": 4,
+      "pattern": { "kind": "spirograph", "parameters": { "speed": 1, "scale": 0.85, "symmetry": 4, "variation": 0.7, "audioReactivity": 0.6, "primaryColor": 2, "secondaryColor": 1 } }
+    },
+    {
+      "startBar": 24, "transitionBeats": 4,
+      "pattern": { "kind": "lissajous", "parameters": { "speed": 1, "scale": 0.8, "symmetry": 3, "variation": 0.3, "audioReactivity": 0.6, "primaryColor": 0, "secondaryColor": 2 } }
+    },
+    {
+      "startBar": 32, "transitionBeats": 8,
+      "pattern": { "kind": "waveformRing", "parameters": { "speed": 0.5, "scale": 0.7, "symmetry": 4, "audioReactivity": 0.9, "primaryColor": 1, "secondaryColor": 0 } }
+    },
+    {
+      "startBar": 40, "transitionBeats": 4,
+      "pattern": { "kind": "phyllotaxis", "parameters": { "speed": 1.5, "scale": 0.95, "density": 1, "variation": 1, "audioReactivity": 0.8, "primaryColor": 1, "secondaryColor": 2 } }
+    }
+  ]
+}
